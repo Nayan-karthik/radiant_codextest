@@ -3,6 +3,7 @@ const nav = document.querySelector(".site-nav");
 const hero = document.querySelector(".hero");
 const processSteps = document.querySelectorAll(".process-step");
 const processVisual = document.querySelector(".process-visual");
+const processImage = document.querySelector(".process-visual img");
 const processKicker = document.querySelector(".process-kicker");
 const processTitle = document.querySelector(".process-visual strong");
 const processDescription = document.querySelector(".process-visual small");
@@ -12,6 +13,8 @@ const processDetails = Array.from(processSteps).map((step, index) => ({
   kicker: `Step ${String(index + 1).padStart(2, "0")} of ${String(processSteps.length).padStart(2, "0")}`,
   title: step.querySelector("h3")?.textContent ?? "",
   description: step.querySelector("p")?.textContent ?? "",
+  image: step.dataset.image ?? "",
+  alt: step.dataset.alt ?? "",
 }));
 const revealGroups = document.querySelectorAll(
   ".strengths, .product-grid, .why-grid, .process-list, .country-tags, .metric-row, .client-proof-grid"
@@ -51,7 +54,7 @@ if (!prefersReducedMotion) {
 const setActiveProcessStep = (index) => {
   const detail = processDetails[index];
 
-  if (!detail || !processVisual || !processKicker || !processTitle || !processDescription || !processProgress) {
+  if (!detail || !processVisual || !processImage || !processKicker || !processTitle || !processDescription || !processProgress) {
     return;
   }
 
@@ -64,6 +67,8 @@ const setActiveProcessStep = (index) => {
   processVisual.classList.add("is-switching");
 
   window.setTimeout(() => {
+    processImage.src = detail.image;
+    processImage.alt = detail.alt;
     processKicker.textContent = detail.kicker;
     processTitle.textContent = detail.title;
     processDescription.textContent = detail.description;
