@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Hero Manufacturing Placeholder</title>
+  <desc id="desc">Replace this file with a wide textile manufacturing or production line photo.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#dfe7ee"/>
+      <stop offset="1" stop-color="#f7f9fb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1800" height="1100" fill="url(#g)"/>
+  <rect x="110" y="160" width="1580" height="760" rx="8" fill="#ffffff" opacity=".8"/>
+  <path d="M210 740h1380v54H210zM270 620h290v90H270zM630 520h290v190H630zM990 450h290v260H990zM1350 560h190v150h-190z" fill="#c7d3df"/>
+  <path d="M270 620l145-120 145 120M630 520l145-120 145 120M990 450l145-120 145 120M1350 560l95-80 95 80" fill="none" stroke="#0e2a47" stroke-width="18" stroke-linejoin="round" opacity=".38"/>
+  <text x="900" y="975" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#0e2a47">Hero Manufacturing Photo Placeholder</text>
+  <text x="900" y="1036" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#657386">Replace: assets/hero-manufacturing-placeholder.svg</text>
+</svg>
