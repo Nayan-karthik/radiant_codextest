@@ -14,10 +14,10 @@ const processDetails = Array.from(processSteps).map((step, index) => ({
   description: step.querySelector("p")?.textContent ?? "",
 }));
 const revealGroups = document.querySelectorAll(
-  ".strengths, .product-grid, .why-grid, .process-list, .country-tags, .metric-row"
+  ".strengths, .product-grid, .why-grid, .process-list, .country-tags, .metric-row, .client-proof-grid"
 );
 const revealItems = document.querySelectorAll(
-  ".client-marquee, .section-heading, .split-section > *, .process-visual, .clients-section > *, .export-content > *, .contact-section > *, .strength-card, .product-card, .why-grid article, .process-step, .country-tags > span, .metric-row > div"
+  ".client-marquee, .section-heading, .split-section > *, .process-visual, .clients-copy, .client-proof, .clients-section blockquote, .export-content > *, .contact-section > *, .strength-card, .product-card, .why-grid article, .process-step, .country-tags > span, .metric-row > div"
 );
 
 menuToggle?.addEventListener("click", () => {
