@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Sportswear Placeholder</title>
+  <desc id="desc">Replace this file with a sportswear, tracksuit, t-shirt, or shorts photo.</desc>
+  <rect width="1200" height="900" fill="#f3f6f8"/>
+  <rect x="140" y="120" width="920" height="620" rx="8" fill="#ffffff" stroke="#dce3ea" stroke-width="6"/>
+  <path d="M420 250h360l120 130-78 76-64-62v250H442V394l-64 62-78-76z" fill="#2d7d92"/>
+  <path d="M515 250c22 42 148 42 170 0" fill="none" stroke="#ffffff" stroke-width="28" stroke-linecap="round"/>
+  <path d="M520 420h160v58H520zM520 510h160v58H520z" fill="#ffffff" opacity=".7"/>
+  <text x="600" y="805" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#0e2a47">Sportswear Photo</text>
+  <text x="600" y="857" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#657386">Replace: sportswear-placeholder.svg</text>
+</svg>
