@@ -165,16 +165,6 @@ a {
     linear-gradient(90deg, rgba(7, 28, 50, 0.88), rgba(14, 42, 71, 0.56), rgba(14, 42, 71, 0.12)),
     url("assets/hero-manufacturing-placeholder.jpg") center/cover;
   animation: heroPan 18s ease-in-out infinite alternate;
-  isolati`on: isolate;
-}
-
-.hero::after {
- <<<<<<< HEAD
-    url("assets/hero-manufacturing-placeholder.jpg") center/cover;
-=======
-    url("assets/hero-manufacturing-placeholder.svg") center/cover;
->>>>>>> d4c37678d6f2d31ee62e402b661f42b098493652
-  animation: heroPan 18s ease-in-out infinite alternate;
   isolation: isolate;
 }
 
@@ -782,12 +772,13 @@ h3 {
   color: var(--white);
   background:
     linear-gradient(90deg, rgba(7, 28, 50, 0.9), rgba(7, 28, 50, 0.58)),
-<<<<<<< HEAD
     url("assets/export-logistics-placeholder.jpg") center/cover;
-=======
-    url("assets/export-logistics-placeholder.svg") center/cover;
->>>>>>> d4c37678d6f2d31ee62e402b661f42b098493652
-nd: #247a4b;
+}
+
+.whatsapp-link {
+  margin-top: 18px;
+  color: var(--white);
+  background: #247a4b;
 }
 
 .whatsapp-link:hover {
